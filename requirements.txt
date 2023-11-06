@@ -1,2 +1,5 @@
-pandas
-numpy 
+#pandas
+#numpy 
+#scikit-learn
+
+-e .
