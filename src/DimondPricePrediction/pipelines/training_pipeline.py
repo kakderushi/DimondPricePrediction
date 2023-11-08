@@ -8,4 +8,4 @@ import numpy as np
 
 
 obj=DataIngestion()
-obj.initiate_data_ingestion
+obj.initiate_data_ingestion()
