@@ -1,3 +1,4 @@
+
 import pandas as pd
 import numpy as np
 from src.DimondPricePrediction.logger import logging
@@ -24,7 +25,7 @@ class DataIngestion:
         logging.info("data ingestion started")
         
         try:
-            data=pd.read_csv(r"C:\DimondPricePrediction\notebooks\EDA.ipynb")
+            data=pd.read_csv(r"C:/DimondPricePrediction/notebooks/gemstone.csv")
             logging.info(" i have read dataset as a df")
             
             
@@ -42,11 +43,14 @@ class DataIngestion:
             
             logging.info("data ingestion part completed")
             
+            return (
+                 
+                
+                self.ingestion_config.train_data_path,
+                self.ingestion_config.test_data_path
+            )
             
-            return ( 
-                    self.ingestion_config.train_data_path,
-                    self.ingestion_config.test_data_path
-                    )
+            
         except Exception as e:
            logging.info("exception during occured at data ingestion stage")
            raise customexception(e,sys)
