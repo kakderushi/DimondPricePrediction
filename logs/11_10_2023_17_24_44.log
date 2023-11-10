@@ -1,0 +1,12 @@
+[2023-11-10 17:24:47,119] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.90.27:8080
+[2023-11-10 17:24:47,119] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2023-11-10 17:25:11,460] 96 werkzeug - ERROR - 192.168.90.27 - - [10/Nov/2023 17:25:11] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03G§ØN')
+[2023-11-10 17:25:11,460] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 17:25:11] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03G§ØN[0m" HTTPStatus.BAD_REQUEST -
+[2023-11-10 17:25:11,463] 96 werkzeug - ERROR - 192.168.90.27 - - [10/Nov/2023 17:25:11] code 400, message Bad request version ('\x00\x02\x01\x00\x00+\x00\x07\x06')
+[2023-11-10 17:25:11,471] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 17:25:11] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x9b\x9bFj\x07\x84¸xçÿI\x07]¾\x8c½\x96ÃÈa¥%æ\x12 gº\x0b\x14}{9 m\x1b´Ðg¶\x9eº\x0d>Áoùï)\x09âv°Õ\x88s\x83xbØ\x16Y¡.aq\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÚÚ\x00\x00ÿ\x01\x00\x01\x00þ\x0d\x00º\x00\x00\x01\x00\x01û\x00 \x07Ç÷´\x9c\x97?Ð«©f¶ÛKB2¸®âO\x02YNShØkò\x86s@)\x00\x90H\x7f0P\x05²ïdn_/\x96\x96´@(ó\x8f¡\\í0+]2Y31ÝkâJ$yc\x0f\x1fDY\x9f!v °g²LO\x86L¸\x09§AØ$\x8e¸Äl¦ô\x0c\x0cNÖ¿\x0e\x0fI\x9c\x17gÚ¦eo\x0f\x91GY<² ÉoJB\x15\x08ß!=îÜCÆ)ÜPH/ë%:¸¿¡:WXaÚ©B\x90_¸ó+î¿üßü\x97Û'2\\û.\x89·ý\x9fÎ\x18a\x85GÀ\x99¯\x00\x0b\x00\x02\x01\x00\x00+\x00\x07\x06[0m" HTTPStatus.BAD_REQUEST -
+[2023-11-10 17:25:14,238] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 17:25:14] "GET / HTTP/1.1" 200 -
+[2023-11-10 17:25:14,358] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 17:25:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-11-10 17:25:22,952] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 17:25:22] "GET /predict HTTP/1.1" 200 -
