@@ -5,3 +5,49 @@
 [2023-11-10 22:01:06,552] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
 [2023-11-10 22:01:18,616] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 22:01:18] "GET / HTTP/1.1" 200 -
 [2023-11-10 22:01:25,868] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 22:01:25] "GET /predict HTTP/1.1" 200 -
+[2023-11-10 22:03:00,106] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 22:03:00] "GET / HTTP/1.1" 200 -
+[2023-11-10 22:03:09,845] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 22:03:09] "GET /predict HTTP/1.1" 200 -
+[2023-11-10 22:03:41,978] 71 root - INFO - Dataframe Gathered
+[2023-11-10 22:03:42,934] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 22:03:42] "POST /predict HTTP/1.1" 200 -
+[2023-11-10 22:08:15,833] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 22:08:15] "GET /predict HTTP/1.1" 200 -
+[2023-11-10 22:08:17,674] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 22:08:17] "GET /predict HTTP/1.1" 200 -
+[2023-11-10 22:08:18,414] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 22:08:18] "GET /predict HTTP/1.1" 200 -
+[2023-11-10 22:08:18,791] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 22:08:18] "GET /predict HTTP/1.1" 200 -
+[2023-11-10 22:08:18,941] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 22:08:18] "GET /predict HTTP/1.1" 200 -
+[2023-11-10 22:08:19,128] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 22:08:19] "GET /predict HTTP/1.1" 200 -
+[2023-11-10 22:08:19,312] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 22:08:19] "GET /predict HTTP/1.1" 200 -
+[2023-11-10 22:08:19,489] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 22:08:19] "GET /predict HTTP/1.1" 200 -
+[2023-11-10 22:08:19,647] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 22:08:19] "GET /predict HTTP/1.1" 200 -
+[2023-11-10 22:08:28,685] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 22:08:28] "GET /predict HTTP/1.1" 200 -
+[2023-11-10 22:08:29,352] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 22:08:29] "GET /predict HTTP/1.1" 200 -
+[2023-11-10 22:08:29,477] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 22:08:29] "GET /predict HTTP/1.1" 200 -
+[2023-11-10 22:08:29,648] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 22:08:29] "GET /predict HTTP/1.1" 200 -
+[2023-11-10 22:08:29,864] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 22:08:29] "GET /predict HTTP/1.1" 200 -
+[2023-11-10 22:11:22,533] 825 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\DimondPricePrediction\env\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\DimondPricePrediction\env\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\DimondPricePrediction\env\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\DimondPricePrediction\env\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "app.py", line 23, in predict_datapoint
+    carat=float(request.form.get('carat')),
+ValueError: could not convert string to float: ''
+[2023-11-10 22:11:22,611] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 22:11:22] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-11-10 22:13:56,095] 825 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\DimondPricePrediction\env\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\DimondPricePrediction\env\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\DimondPricePrediction\env\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\DimondPricePrediction\env\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "app.py", line 23, in predict_datapoint
+    carat=float(request.form.get('carat')),
+ValueError: could not convert string to float: ''
+[2023-11-10 22:13:56,097] 96 werkzeug - INFO - 192.168.90.27 - - [10/Nov/2023 22:13:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
