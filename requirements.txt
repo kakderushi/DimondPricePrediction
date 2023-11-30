@@ -1,6 +1,6 @@
 pandas
 numpy 
-scikit-learnpip 
+scikit-learn
 seaborn
 matplotlib
 
