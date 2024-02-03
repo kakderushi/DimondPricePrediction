@@ -4,6 +4,8 @@ from src.DimondPricePrediction.pipelines.prediction_pipeline import CustomData,P
 from flask import Flask,request,render_template,jsonify
 
 
+# Here I am writing Backend script using python flask web framework
+
 app=Flask(__name__)
 
 

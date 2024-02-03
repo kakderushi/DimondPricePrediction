@@ -1,4 +1,3 @@
-
 import os
 import sys
 import pandas as pd
@@ -23,9 +22,6 @@ class DataTransformationConfig:
 class DataTransformation:
     def __init__(self):
         self.data_transformation_config=DataTransformationConfig()
-
-        
-    
     def get_data_transformation(self):
         
         try:
@@ -70,9 +66,6 @@ class DataTransformation:
             return preprocessor
             
 
-            
-            
-        
         except Exception as e:
             logging.info("Exception occured in the initiate_datatransformation")
 
@@ -96,7 +89,7 @@ class DataTransformation:
             input_feature_train_df = train_df.drop(columns=drop_columns,axis=1)
             target_feature_train_df=train_df[target_column_name]
             
-            
+              
             input_feature_test_df=test_df.drop(columns=drop_columns,axis=1)
             target_feature_test_df=test_df[target_column_name]
             
