@@ -1,0 +1,19 @@
+[2024-05-01 18:10:22,343] 224 werkzeug - WARNING -  * Debugger is active!
+[2024-05-01 18:10:22,362] 224 werkzeug - INFO -  * Debugger PIN: 340-060-891
+[2024-05-01 18:10:23,966] 224 werkzeug - INFO -  * Detected change in 'C:\\DimondPricePrediction\\src\\DimondPricePrediction\\pipelines\\prediction_pipeline.py', reloading
+[2024-05-01 18:10:24,049] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\Rushikesh\\anaconda3\\Lib\\site-packages\\flask\\__init__.py', reloading
+[2024-05-01 18:10:24,076] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\Rushikesh\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+[2024-05-01 18:10:24,242] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\Rushikesh\\anaconda3\\Lib\\site-packages\\flask\\scaffold.py', reloading
+[2024-05-01 18:10:24,380] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\Rushikesh\\anaconda3\\Lib\\site-packages\\flask\\globals.py', reloading
+[2024-05-01 18:10:24,394] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\Rushikesh\\anaconda3\\Lib\\site-packages\\flask\\wrappers.py', reloading
+[2024-05-01 18:10:24,400] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\Rushikesh\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+[2024-05-01 18:10:24,430] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\Rushikesh\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+[2024-05-01 18:10:24,474] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\Rushikesh\\anaconda3\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+[2024-05-01 18:10:24,525] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\Rushikesh\\anaconda3\\Lib\\site-packages\\flask\\templating.py', reloading
+[2024-05-01 18:10:24,535] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\Rushikesh\\anaconda3\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+[2024-05-01 18:10:24,539] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\Rushikesh\\anaconda3\\Lib\\site-packages\\jinja2\\environment.py', reloading
+[2024-05-01 18:10:24,653] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\Rushikesh\\anaconda3\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+[2024-05-01 18:10:24,692] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\Rushikesh\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+[2024-05-01 18:10:24,746] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\Rushikesh\\anaconda3\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+[2024-05-01 18:10:24,790] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\Rushikesh\\anaconda3\\Lib\\site-packages\\flask\\sessions.py', reloading
+[2024-05-01 18:10:24,805] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\Rushikesh\\anaconda3\\Lib\\site-packages\\flask\\json\\tag.py', reloading
